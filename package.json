@@ -1,8 +1,9 @@
 {
 	"name": "its-stack",
 	"version": "0.0.1",
+	"license": "MIT",
 	"scripts": {
-		"dev": "vite dev --host",
+		"dev": "vite dev",
 		"build": "vite build",
 		"package": "svelte-kit package",
 		"start": "vite preview --host",
@@ -26,5 +27,8 @@
 		"typescript": "^4.7.4",
 		"vite": "^3.0.0"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"firebase": "^9.9.2"
+	}
 }
