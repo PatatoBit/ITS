@@ -20,3 +20,14 @@
 	@apply text-white text-2xl bg-red-600 px-4 py-2 rounded-lg border-2 border-red-600
 	hover:bg-white hover:text-red-600 hover:rounded-md transition-all;
 }
+
+.foodsubmit {
+	@apply text-2xl text-white shadow-md m-2
+	border-2 border-green-500 bg-green-500
+	px-4 py-2 rounded-lg
+	hover:text-green-500 hover:bg-white hover:rounded-md transition-all;
+}
+
+textarea {
+	resize: none;
+}

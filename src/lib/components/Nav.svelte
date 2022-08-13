@@ -17,7 +17,7 @@
 	</a>
 </div>
 
-<div class="flex">
-	<h1 class="text-2xl px-4 py-2 border-2 border-blue-200 rounded-md">Logged in as {username}</h1>
-	<button class="signout" on:click={() => auth.signOut()}>Sign Out</button>
+<div class="flex m-2">
+	<h1 class="text-2xl px-4 py-2 bg-blue-100 rounded-md">Logged in as <span class="font-bold">{username}</span></h1>
+	<button class="signout font-bold" on:click={() => auth.signOut()}>Sign Out</button>
 </div>
